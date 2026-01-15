@@ -6,66 +6,7 @@ import Contact from './Contact';
 
 const Projects = () => {
     const projectsData = [
-        {
-            title: "Meet Tour Management System in Railways",
-            tech: "Full-Stack (MERN Stack)",
-            description: "A full-stack web application designed for the Railway Department to manage and book employee and passenger tours with secure authentication, booking management, and itinerary generation.",
-            links: { github: "#", demo: "#" }
-        },
-        {
-            title: "Full-Stack Airbnb Clone",
-            tech: "Full-Stack (MVC Architecture)",
-            description: "A full-featured web application replicating core Airbnb functionalities with secure authentication, MVC architecture, and file upload capabilities.",
-            links: { github: "#", demo: "#" }
-        },
-        {
-            title: "ID Card Generation System",
-            tech: "MERN Stack (MongoDB, Express, React, Node)",
-            description: "A complete employee ID generation platform supporting automated data entry, validation, and dynamic ID rendering with secure data storage.",
-            links: { github: "#", demo: "#" }
-        },
-        {
-            title: "Video Conferencing Platform",
-            tech: "React, WebRTC, Socket.IO",
-            description: "Real-time communication system similar to Zoom. Features video/audio transfer, live messaging, screen sharing, and multi-user rooms with low-latency interaction.",
-            links: { github: "#", demo: "#" }
-        },
-        {
-            title: "Remove Image Background",
-            tech: "AI-Powered Web App",
-            description: "A modern AI-powered web app that removes image backgrounds automatically using the Remove.bg API. Upload your photo and let AI do the magic in seconds!",
-            links: { github: "#", demo: "#" }
-        },
-        {
-            title: "Coders-of-Bangalore",
-            tech: "Python, Data Analysis",
-            description: "A curated dataset of Bangalore's tech creators and communities, containing usernames, followers, bios, and page types. Useful for data analysis, NLP, visualizations, and social-media research.",
-            links: { github: "#", demo: "#" }
-        },
-        {
-            title: "E-commerce Website",
-            tech: "HTML, CSS, JavaScript",
-            description: "This is a simple e-commerce website where users can view products, add them to the cart, and place orders. The website has a clean design, easy navigation, and basic shopping features.",
-            links: { github: "#", demo: "#" }
-        },
-        {
-            title: "Smart Quiz Collection",
-            tech: "Frontend (HTML, CSS, JavaScript)",
-            description: "Interactive HTML/CSS/JS quiz website with Reasoning, GK and Computer categories.",
-            links: { github: "#", demo: "#" }
-        },
-        {
-            title: "Sampark Travels",
-            tech: "Full-Stack (MERN Stack)",
-            description: "Sampark Travels is a trusted travel service offering comfortable vehicles, affordable tour packages, and reliable transportation for local and outstation journeys with a focus on safety, convenience, and customer satisfaction.",
-            links: { github: "#", demo: "#" }
-        },
-        {
-            title: "Jarvis Voice Assistant",
-            tech: "Python, SpeechRecognition, pyttsx3",
-            description: "Virtual assistant for system task automation. Performs voice-controlled lookups, reminders, app launching, and web automation.",
-            links: { github: "#", demo: "#" }
-        }
+       
     ];
 
     return (
