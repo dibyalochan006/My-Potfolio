@@ -1,4 +1,4 @@
-# Laxmi Nrusingh Rath - Portfolio Website
+# Dibyalochan Dandapat - Portfolio Website
 
 A modern, responsive portfolio website built with React and Vite, showcasing my skills, projects, and experience as a Full Stack Developer and Machine Learning enthusiast.
 
@@ -96,9 +96,9 @@ Portofolio/
 
 ## Author
 
-**Laxmi Nrusingh Rath**  
-Full Stack Developer | ML Enthusiast  
-B.Tech in Electrical and Computer Engineering
+**Dibyalochan Dandapat**  
+Full Stack Developer 
+B.Tech in Computer Science & Engineering
 
 ---
 
