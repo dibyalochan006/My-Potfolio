@@ -6,7 +6,29 @@ import Contact from './Contact';
 
 const Projects = () => {
     const projectsData = [
-       
+        {
+           title: "Meet Tour Management System in Railways",
+           tech: "Full-Stack (MERN Stack)",
+           description: "A full-stack web application designed for the Railway Department to manage and book employee and  passenger tours with secure authentication, booking management, and itinerary generation.",
+           links: { github: "#", demo: "#" }
+
+        },
+        {
+           title: "Nxt_Watch App",
+           tech: "React Project",
+           description: "Built a job search application using React.js that allows users to authenticate, search for jobs, apply filters, and view detailed job descriptions. Implemented protected routes, API integration, and a responsive UI for a smooth user experience.",
+           links: { github: "#", demo: "#" }
+
+        },
+        {
+           title: "Jobby App",
+           tech: "React Project",
+           description: "Developed a YouTube-like video streaming application using React.js. Implemented user authentication, protected routes, video listing, video detail view, search functionality, and light/dark theme support. Integrated APIs for dynamic content rendering and ensured a responsive, user-friendly UI.",
+           links: { github: "#", demo: "#" }
+
+        },
+        
+            
     ];
 
     return (
