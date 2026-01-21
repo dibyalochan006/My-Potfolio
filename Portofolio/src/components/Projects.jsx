@@ -27,6 +27,20 @@ const Projects = () => {
            links: { github: "#", demo: "#" }
 
         },
+        {
+           title: "My-Potfolio",
+           tech: "React Project",
+           description: "A responsive personal portfolio website built using React JS to showcase my skills, projects, and experience. It features a clean UI, reusable components, and smooth navigation, helping recruiters easily explore my work.",
+           links: { github: "#", demo: "#" }
+
+        },
+         {
+           title: "Nxt-Trendz-Payment",
+           tech: "React Project",
+           description: "Nxt-Trendz-Payment is a React JS application that implements a secure and user-friendly payment flow for an e-commerce platform. It demonstrates order summary, payment confirmation, and smooth navigation.",
+           links: { github: "#", demo: "#" }
+
+        },
         
             
     ];
