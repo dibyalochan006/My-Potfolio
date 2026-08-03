@@ -7,8 +7,40 @@ import Contact from './Contact';
 const Experience = () => {
     const experienceData = [
         {
+    type: "internship",
+    title: "Associate Data Analyst Intern",
+    organization: "Intellectra AI Solutions Pvt. Ltd.",
+    duration: "Jun 2026 - Present",
+    location: "Hyderabad, India",
+
+    description:
+        "Currently working as an Associate Data Analyst Intern while undergoing structured industry training in Data Analytics and working on real-time client projects.",
+
+    achievements: [
+        "Completed structured training in SQL, Excel, Power BI, Python, and Data Analytics concepts.",
+        "Worked on project-based assignments using real-world business datasets.",
+        "Performed data cleaning, transformation, and exploratory data analysis (EDA).",
+        "Created interactive dashboards and reports using Excel and Power BI.",
+        "Collaborated with mentors and internal teams on live analytics projects.",
+        "Applied SQL queries to extract business insights and support decision-making.",
+        "Learning industry best practices in reporting, visualization, and business analytics."
+    ],
+
+    technologies: [
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Data Visualization",
+        "Business Analytics"
+    ]
+},
+        {
             type: 'internship',
-            title: 'Full Stack Development Intern',
+            title: 'Full Stack Developer Intern',
             organization: 'Info Era Software Services Pvt. Ltd.',
             duration: 'July 7, 2025 – August 7, 2025',
             location: 'Online ',

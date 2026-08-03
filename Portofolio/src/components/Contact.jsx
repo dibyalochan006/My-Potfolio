@@ -141,7 +141,7 @@ const Contact = () => {
 
                         <Info icon={<FaEnvelope />} title="Email Me" value="dibyalochandandapat2@gmail.com" />
                         <Info icon={<FaPhone />} title="Call Me" value="+91 7008741663" />
-                        <Info icon={<FaMapMarkerAlt />} title="Location" value="Mayurbhanj, Odisha" />
+                        <Info icon={<FaMapMarkerAlt />} title="Location" value="Bhubaneswar, Odisha" />
                     </motion.div>
 
                     {/* Contact Form */}

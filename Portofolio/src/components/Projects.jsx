@@ -6,44 +6,61 @@ import Contact from './Contact';
 
 const Projects = () => {
     const projectsData = [
-        {
-           title: "Meet Tour Management System in Railways",
-           tech: "Full-Stack (MERN Stack)",
-           description: "A full-stack web application designed for the Railway Department to manage and book employee and  passenger tours with secure authentication, booking management, and itinerary generation.",
-           links: { github: "#", demo: "#" }
+    {
+        title: "Product Insights Analysis",
+        tech: "Python | Pandas | Matplotlib",
+        description:
+            "Analyzed product sales data using Python, Pandas, and Matplotlib. Performed data cleaning, exploratory data analysis (EDA), and visualization to identify sales trends, customer behavior, and product performance. Generated actionable business insights through charts and statistical analysis.",
+        links: {
+            github: "https://github.com/dibyalochan006/product-insights-analysis",
+            demo: "#"
+        }
+    },
 
-        },
-        {
-           title: "Nxt_Watch App",
-           tech: "React Project",
-           description: "Built a job search application using React.js that allows users to authenticate, search for jobs, apply filters, and view detailed job descriptions. Implemented protected routes, API integration, and a responsive UI for a smooth user experience.",
-           links: { github: "#", demo: "#" }
+    {
+        title: "SQL Data Analysis Project",
+        tech: "SQL Server | T-SQL",
+        description:
+            "Performed business data analysis using SQL Server by writing complex SQL queries, including Joins, CTEs, Window Functions, Aggregate Functions, Subqueries, and CASE statements. Extracted valuable insights to support data-driven business decisions.",
+        links: {
+            github: "https://github.com/dibyalochan006/sql-data-analysis-project",
+            demo: "#"
+        }
+    },
 
-        },
-        {
-           title: "Jobby App",
-           tech: "React Project",
-           description: "Developed a YouTube-like video streaming application using React.js. Implemented user authentication, protected routes, video listing, video detail view, search functionality, and light/dark theme support. Integrated APIs for dynamic content rendering and ensured a responsive, user-friendly UI.",
-           links: { github: "#", demo: "#" }
+    {
+        title: "Excel Data Analysis Dashboard",
+        tech: "Microsoft Excel | Pivot Tables | Dashboard",
+        description:
+            "Created an interactive Excel dashboard using Pivot Tables, Pivot Charts, KPI Cards, Slicers, Conditional Formatting, and Excel formulas. Designed the dashboard to analyze business performance and present key metrics in a clear, visually appealing format.",
+        links: {
+            github: "https://github.com/dibyalochan006/excel-data-analysis-dashboard",
+            demo: "#"
+        }
+    },
 
-        },
-        {
-           title: "My-Potfolio",
-           tech: "React Project",
-           description: "A responsive personal portfolio website built using React JS to showcase my skills, projects, and experience. It features a clean UI, reusable components, and smooth navigation, helping recruiters easily explore my work.",
-           links: { github: "#", demo: "#" }
+    {
+        title: "Personal Portfolio Website",
+        tech: "React.js | JavaScript | CSS",
+        description:
+            "Designed and developed a responsive personal portfolio website using React.js to showcase my Data Analytics projects, technical skills, certifications, resume, and GitHub repositories with a modern and recruiter-friendly interface.",
+        links: {
+            github: "https://github.com/dibyalochan006",
+            demo: "#"
+        }
+    },
 
-        },
-         {
-           title: "Nxt-Trendz-Payment",
-           tech: "React Project",
-           description: "Nxt-Trendz-Payment is a React JS application that implements a secure and user-friendly payment flow for an e-commerce platform. It demonstrates order summary, payment confirmation, and smooth navigation.",
-           links: { github: "#", demo: "#" }
-
-        },
-        
-            
-    ];
+    {
+        title: "Power BI Sales Dashboard (Coming Soon)",
+        tech: "Power BI | DAX | Power Query",
+        description:
+            "Currently building an interactive Power BI dashboard featuring KPI cards, slicers, drill-through reports, and business insights using real-world sales data. The project will demonstrate advanced dashboard design and data visualization techniques.",
+        links: {
+            github: "#",
+            demo: "#"
+        }
+    }
+];
 
     return (
         <>
@@ -98,15 +115,16 @@ const Projects = () => {
                                     {project.description}
                                 </p>
                                 <div style={{ display: 'flex', gap: '1rem', marginTop: 'auto' }}>
-                                    <a href={project.links.github} style={{
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        gap: '5px',
-                                        color: 'var(--text-primary)',
-                                        transition: 'var(--transition-fast)'
-                                    }}
-                                        onMouseEnter={(e) => e.target.style.color = 'var(--accent-primary)'}
-                                        onMouseLeave={(e) => e.target.style.color = 'var(--text-primary)'}
+                                    <a href={project.links.github}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        style={{
+                                            display: "flex",
+                                            alignItems: "center",
+                                            gap: "6px",
+                                            color: "var(--text-primary)",
+                                            textDecoration: "none"
+                                        }}
                                     >
                                         <FaGithub /> Code
                                     </a>

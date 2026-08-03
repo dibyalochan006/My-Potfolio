@@ -20,7 +20,7 @@ const Footer = () => {
                     <a href="https://github.com/dibyalochan006 " target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', fontSize: '1.5rem', transition: 'var(--transition-fast)' }} onMouseEnter={(e) => e.target.style.color = 'var(--accent-primary)'} onMouseLeave={(e) => e.target.style.color = 'var(--text-secondary)'}>
                         <FaGithub />
                     </a>
-                    <a href="https://www.linkedin.com/in/dibyalochan-dandapat-9375092a1 " target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', fontSize: '1.5rem', transition: 'var(--transition-fast)' }} onMouseEnter={(e) => e.target.style.color = 'var(--accent-primary)'} onMouseLeave={(e) => e.target.style.color = 'var(--text-secondary)'}>
+                    <a href="https://www.linkedin.com/in/dibyalochan-data-analyst/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', fontSize: '1.5rem', transition: 'var(--transition-fast)' }} onMouseEnter={(e) => e.target.style.color = 'var(--accent-primary)'} onMouseLeave={(e) => e.target.style.color = 'var(--text-secondary)'}>
                         <FaLinkedin />
                     </a>
                     <a href="mailto:dibyalochandandapat2@gmail.com" style={{ color: 'var(--text-secondary)', fontSize: '1.5rem', transition: 'var(--transition-fast)' }} onMouseEnter={(e) => e.target.style.color = 'var(--accent-primary)'} onMouseLeave={(e) => e.target.style.color = 'var(--text-secondary)'}>

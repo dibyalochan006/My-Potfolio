@@ -11,8 +11,8 @@ const Education = () => {
             degree: "B.Tech in Computer Science and Engineering",
             institution: "Gandhi Institute for Education and Technology, Khordha",
             duration: "2022 – 2026",
-            grade: "Current CGPA: 7.70",
-            description: "Specializing in full-stack development and Python Developer."
+            grade: "Current CGPA: 7.91",
+            description: "Specializing in Data Analytics, statistical modeling, and Python-driven insights."
         },
         {
             degree: "Council of Higher Secondary Education, Odisha (XII)",
@@ -171,7 +171,7 @@ const Education = () => {
                         marginBottom: '1rem',
                         color: 'var(--text-primary)'
                     }}>
-                        Key Achievements
+                        📈 Analytics Achievements
                     </h2>
                     <div style={{
                         width: '80px',
@@ -226,14 +226,15 @@ const Education = () => {
                             marginBottom: '1rem',
                             color: 'var(--text-primary)'
                         }}>
-                            Academic Excellence
+                            SQL Expertise
                         </h3>
                         <p style={{
                             color: 'var(--text-secondary)',
                             lineHeight: '1.6',
                             fontSize: '0.95rem'
                         }}>
-                            Maintained high GPA throughout academic career
+                            Solved 300+ SQL practice problems covering joins,
+CTEs, window functions, subqueries, and data analysis.
                         </p>
                     </motion.div>
 
@@ -274,14 +275,15 @@ const Education = () => {
                             marginBottom: '1rem',
                             color: 'var(--text-primary)'
                         }}>
-                            Research Projects
+                            Dashboard Development
                         </h3>
                         <p style={{
                             color: 'var(--text-secondary)',
                             lineHeight: '1.6',
                             fontSize: '0.95rem'
                         }}>
-                            Completed 5+ research projects in web technologies and Python(Mini Projects)
+                            Created interactive dashboards using Power BI and Excel
+to visualize business performance and KPIs.
                         </p>
                     </motion.div>
 
@@ -322,14 +324,15 @@ const Education = () => {
                             marginBottom: '1rem',
                             color: 'var(--text-primary)'
                         }}>
-                            Leadership
+                            Data Analysis Projects
                         </h3>
                         <p style={{
                             color: 'var(--text-secondary)',
                             lineHeight: '1.6',
                             fontSize: '0.95rem'
                         }}>
-                            Led student organizations and technical teams
+                            Built end-to-end projects using Python, Pandas, Excel,
+SQL, and Power BI on real-world datasets.
                         </p>
                     </motion.div>
                 </div>

@@ -93,7 +93,7 @@ const Hero = () => {
                         color: 'var(--text-secondary)',
                         marginBottom: '2rem'
                     }}>
-                        Full Stack Developer | Python Developer
+                        Data Analyst | SQL | Python | Power BI | Excel | Pandas
                     </h2>
                     <p style={{
                         maxWidth: '600px',
@@ -102,7 +102,7 @@ const Hero = () => {
                         lineHeight: '1.6',
                         color: 'var(--text-secondary)'
                     }}>
-                        I'm a dedicated Full Stack Developer and Python Developer enthusiast currently pursuing B.Tech in Computer Science and Engineering. With a strong foundation in MERN stack, I specialize in building scalable web applications. I'm passionate about creating innovative solutions and always eager to learn new technologies.
+                        I am an aspiring Data Analyst with strong skills in SQL, Python, Excel, Power BI, and Pandas. I enjoy cleaning, analyzing, and visualizing data to uncover meaningful business insights. I have completed several real-world data analysis projects and continuously improve my analytical skills through hands-on practice.
                     </p>
 
                     <div className="hero-buttons" style={{ display: 'flex', gap: '1.5rem' }}>
@@ -278,7 +278,7 @@ const Hero = () => {
                         color: 'var(--text-secondary)',
                         marginBottom: '1.5rem'
                     }}>
-                        I'm a dedicated Full Stack Developer and Python Developer enthusiast currently pursuing a B.Tech in Computer Science and Engineering. I enjoy building scalable, efficient, and user-focused web applications that solve real-world problems.
+                        I am an aspiring Data Analyst currently pursuing a B.Tech in Computer Science and Engineering. I enjoy working with data to uncover meaningful insights and solve business problems. My expertise includes SQL, Python, Excel, Power BI, and Pandas, enabling me to clean, analyze, and visualize data effectively.
                     </p>
                     <p style={{
                         fontSize: '1.1rem',
@@ -286,14 +286,14 @@ const Hero = () => {
                         color: 'var(--text-secondary)',
                         marginBottom: '1.5rem'
                     }}>
-                        With a strong foundation in the MERN stack, I work comfortably across both frontend and backend development, creating responsive interfaces and reliable server-side logic. Alongside web development, I actively explore Python concepts to expand my problem-solving capabilities.
+                        I have completed multiple hands-on projects involving data cleaning, exploratory data analysis (EDA), dashboard creation, and business reporting. I continuously strengthen my analytical skills by solving SQL problems and working on real-world datasets.
                     </p>
                     <p style={{
                         fontSize: '1.1rem',
                         lineHeight: '1.8',
                         color: 'var(--text-secondary)'
                     }}>
-                        I'm passionate about continuous learning, experimenting with new technologies, and turning innovative ideas into practical digital solutions.
+                        I am passionate about transforming raw data into actionable insights that support better decision-making and continuously learning new tools and technologies in the field of data analytics.
                     </p>
                 </motion.div>
 
@@ -324,34 +324,21 @@ const Hero = () => {
                         }}
                         whileHover={{ y: -5, boxShadow: '0 8px 30px rgba(239, 68, 68, 0.25)' }}
                     >
-                        <div style={{
-                            width: '60px',
-                            height: '60px',
-                            margin: '0 auto 1.5rem auto',
-                            background: 'rgba(239, 68, 68, 0.1)',
-                            borderRadius: '50%',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            color: '#ef4444',
-                            fontSize: '1.8rem'
-                        }}>
-                            <FaRocket />
-                        </div>
+                        
                         <h3 style={{
                             fontSize: '1.3rem',
                             fontWeight: 'bold',
                             marginBottom: '0.8rem',
                             color: '#ef4444'
                         }}>
-                            Fast Learner
+                            📊 Data Analysis
                         </h3>
                         <p style={{
                             color: 'var(--text-secondary)',
                             lineHeight: '1.6',
                             fontSize: '0.95rem'
                         }}>
-                            Quickly adapt to new technologies and frameworks.
+                            Analyze datasets using SQL, Python, and Pandas to discover patterns and generate meaningful business insights.
                         </p>
                     </motion.div>
 
@@ -374,34 +361,93 @@ const Hero = () => {
                         }}
                         whileHover={{ y: -5, boxShadow: '0 8px 30px rgba(245, 158, 11, 0.25)' }}
                     >
-                        <div style={{
-                            width: '60px',
-                            height: '60px',
-                            margin: '0 auto 1.5rem auto',
-                            background: 'rgba(245, 158, 11, 0.1)',
-                            borderRadius: '50%',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            color: '#f59e0b',
-                            fontSize: '1.8rem'
-                        }}>
-                            <FaLightbulb />
-                        </div>
+                       
                         <h3 style={{
                             fontSize: '1.3rem',
                             fontWeight: 'bold',
                             marginBottom: '0.8rem',
                             color: '#f59e0b'
                         }}>
-                            Problem Solver
+                            📈 Data Visualization
                         </h3>
                         <p style={{
                             color: 'var(--text-secondary)',
                             lineHeight: '1.6',
                             fontSize: '0.95rem'
                         }}>
-                            Creative solutions for complex technical challenges.
+                            Build interactive dashboards and reports using Power BI and Excel to communicate data effectively.
+                        </p>
+                    </motion.div>
+                    {/* Card-3 */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5, delay: 0.3 }}
+                        style={{
+                            background: 'var(--bg-primary)',
+                            padding: '2rem',
+                            borderRadius: '15px',
+                            border: '2px solid #00c853',
+                            boxShadow: '0 4px 20px rgba(239, 68, 68, 0.15)',
+                            textAlign: 'center',
+                            transition: 'var(--transition-medium)',
+                            position: 'relative',
+                            overflow: 'hidden'
+                        }}
+                        whileHover={{ y: -5, boxShadow: '0 8px 30px rgba(239, 68, 68, 0.25)' }}
+                    >
+                        
+                        <h3 style={{
+                            fontSize: '1.3rem',
+                            fontWeight: 'bold',
+                            marginBottom: '0.8rem',
+                            color: '#00c853'
+                        }}>
+                            🧹 Data Cleaning
+                        </h3>
+                        <p style={{
+                            color: 'var(--text-secondary)',
+                            lineHeight: '1.6',
+                            fontSize: '0.95rem'
+                        }}>
+                            Clean, transform, and prepare raw data for analysis using Excel, SQL, and Pandas.
+                        </p>
+                    </motion.div>
+                    {/*  Card-4 */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5, delay: 0.3 }}
+                        style={{
+                            background: 'var(--bg-primary)',
+                            padding: '2rem',
+                            borderRadius: '15px',
+                            border: '2px solid #2196f3',
+                            boxShadow: '0 4px 20px rgba(239, 68, 68, 0.15)',
+                            textAlign: 'center',
+                            transition: 'var(--transition-medium)',
+                            position: 'relative',
+                            overflow: 'hidden'
+                        }}
+                        whileHover={{ y: -5, boxShadow: '0 8px 30px rgba(239, 68, 68, 0.25)' }}
+                    >
+                        
+                        <h3 style={{
+                            fontSize: '1.3rem',
+                            fontWeight: 'bold',
+                            marginBottom: '0.8rem',
+                            color: '#2196f3'
+                        }}>
+                            🗄 Database Management
+                        </h3>
+                        <p style={{
+                            color: 'var(--text-secondary)',
+                            lineHeight: '1.6',
+                            fontSize: '0.95rem'
+                        }}>
+                            Write efficient SQL queries, joins, CTEs, window functions, and optimize data retrieval.
                         </p>
                     </motion.div>
                 </div>
