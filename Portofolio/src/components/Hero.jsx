@@ -9,9 +9,10 @@ const Hero = () => {
     const handleResumeDownload = () => {
         const link = document.createElement('a');
         // file placed in `public/` should be referenced from root '/'
-        link.href = '/Portofolio/public/RESUME01.pdf';
+        link.href = '/DibyaResume.pdf';
         // set a simple filename for the downloaded file
-        link.download = 'RESUME01.pdf';
+        link.download = 'DibyaResume.pdf';
+        
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
